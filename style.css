@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.algerian {
+  font-family: algerian;
+}
+
+.serif {
+  font-family: serif;
+}
+
+.scale-hov {
+  transition: transform 0.3s;
+}
+
+.scale-hov:hover {
+  transform: matrix(1.03, 0, 0, 1.03, 0, 0)
+}
+
+.img-gray{
+  filter:hue-rotate(180deg) opacity(40%);
+}
+
+.img-h-30 img{
+  height:30px;
+}
